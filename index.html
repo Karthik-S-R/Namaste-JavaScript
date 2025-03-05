@@ -1,15 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
   <script src="index.js"></script>
   <title>Document</title>
 </head>
+
 <body>
   <div>
-    <h1>Hello!!</h1>
+    <h1>Namaste JavaScript</h1>
+  </div>
+  <div id="Ep1">
+    <details>
+      <summary><b>Ep.1 How JavaScript works & Execution Context</b></summary>
+      <p>
+        Everthing in JavaScript happens inside an
+        <b>Excecution Context</b> (Big box or Container where whole JS is
+        executed)
+      </p>
+      <p>JavaScript is a Synchronous single-threaded language</p>
+    </details>
+  </div>
+  <div id="Ep2">
+    <details>
+      <summary><b>Ep.2 How JavaScript Code is executed? & Call Stack</b></summary>
+      <div>
+        <p>What happens when we Run a JavaScript Program?</p>
+        <p>Ans: Global Execution Context is created</p>
+        <p>Execution Context is created in 2 phases:
+        <ol>
+          <li>Creation Phase <small>also known as Memory Creation phase</small></li>
+          <li>Code Execution Phase</li>
+        </ol>
+        </p>
+        <p>Undefined is special keyword in JavaScript</p>
+        <pre>
+  <code>
+var n = 2; 
+funtion square (num) { 
+  var ans = num * num; 
+  return ans;
+} 
+var square2 = square(n); 
+var square4 = square(4);
+</code>
+</pre>
+        <p>Call Stack maintains the order of execution of ececution contexts.</p>
+      </div>
+    </details>
+  </div>
+  <div id="Ep3">
+    <details>
+      <summary><b>Ep.3</b></summary>
+      <p></p>
+    </details>
+  </div>
+  <div id="Ep4">
+    <details>
+      <summary><b>Ep.4</b></summary>
+      <p></p>
+    </details>
+  </div>
+  <div id="Ep5">
+    <details>
+      <summary><b>Ep.5</b></summary>
+      <p></p>
+    </details>
   </div>
 </body>
+
 </html>
